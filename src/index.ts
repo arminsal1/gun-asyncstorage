@@ -12,6 +12,6 @@ Gun.on("opt", (context: any) => {
     };
 
   // Register the adapter
-  Gun.on("get", pluginInterop(adapter.read));
-  Gun.on("put", pluginInterop(adapter.write));
+  context.on("get", pluginInterop(adapter.read));
+  context.on("put", pluginInterop(adapter.write));
 });
