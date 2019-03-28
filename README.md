@@ -5,7 +5,7 @@ Interop layer between [Gun.js](https://gun.js.org) and React Native's [AsyncStor
 ## Installation
 
 ```
-npm install gun-asyncstorage
+npm install arminsal1/gun-asyncstorage --save
 ```
 
 ## Usage
